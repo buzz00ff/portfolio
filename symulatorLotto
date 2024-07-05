@@ -1,0 +1,101 @@
+using System;
+using System.Linq;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Witaj w Symulatorze Lotto!");
+
+
+        int[] wylosowaneLiczby = LosujLiczby(6);
+
+
+        int[] wybraneLiczby = WybierzLiczby();
+
+
+        Console.WriteLine("\nWylosowane liczby to:");
+        foreach (var liczba in wylosowaneLiczby)
+        {
+            Console.Write($"{liczba} ");
+        }
+        Console.WriteLine();
+
+        
+        int trafione = LiczTrafienia(wylosowaneLiczby, wybraneLiczby);
+
+
+        Console.WriteLine($"\nLiczba trafień: {trafione}");
+
+
+        if (trafione == 6)
+        {
+            Console.WriteLine("Gratulacje! Trafiłeś szóstkę!");
+        }
+        else
+        {
+            Console.WriteLine("Spróbuj szczęścia następnym razem!");
+        }
+    }
+
+    
+    static int[] LosujLiczby(int ileLiczb)
+    {
+        Random rand = new Random();
+        int[] liczby = new int[ileLiczb];
+        int i = 0;
+
+        while (i < ileLiczb)
+        {
+            int wylosowana = rand.Next(1, 50); 
+            if (!liczby.Contains(wylosowana))
+            {
+                liczby[i] = wylosowana;
+                i++;
+            }
+        }
+
+        Array.Sort(liczby); 
+        return liczby;
+    }
+
+    
+    static int[] WybierzLiczby()
+    {
+        int[] wybrane = new int[6];
+
+        Console.WriteLine("\nWybierz 6 liczb z zakresu 1-49:");
+        for (int i = 0; i < 6; i++)
+        {
+            Console.Write($"Liczba {i + 1}: ");
+            while (true)
+            {
+                if (int.TryParse(Console.ReadLine(), out int liczba) && liczba >= 1 && liczba <= 49 && !wybrane.Contains(liczba))
+                {
+                    wybrane[i] = liczba;
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Niepoprawna liczba. Podaj liczbę z zakresu 1-49, która nie została jeszcze wybrana.");
+                }
+            }
+        }
+
+        Array.Sort(wybrane);
+        return wybrane;
+    }
+
+    static int LiczTrafienia(int[] wylosowane, int[] wybrane)
+    {
+        int trafione = 0;
+        foreach (var liczba in wybrane)
+        {
+            if (wylosowane.Contains(liczba))
+            {
+                trafione++;
+            }
+        }
+        return trafione;
+    }
+}
