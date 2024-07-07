@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\FinancialCalculator\FinancialCalculator\bin\Debug\FinancialCalculator.exe.config
+C:\Users\user\source\repos\FinancialCalculator\FinancialCalculator\bin\Debug\FinancialCalculator.exe
+C:\Users\user\source\repos\FinancialCalculator\FinancialCalculator\bin\Debug\FinancialCalculator.pdb
+C:\Users\user\source\repos\FinancialCalculator\FinancialCalculator\obj\Debug\FinancialCalculator.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\FinancialCalculator\FinancialCalculator\obj\Debug\FinancialCalculator.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\FinancialCalculator\FinancialCalculator\obj\Debug\FinancialCalculator.exe
+C:\Users\user\source\repos\FinancialCalculator\FinancialCalculator\obj\Debug\FinancialCalculator.pdb
