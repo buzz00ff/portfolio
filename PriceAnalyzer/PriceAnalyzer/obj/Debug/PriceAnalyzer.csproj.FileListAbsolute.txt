@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\PriceAnalyzer\PriceAnalyzer\obj\Debug\PriceAnalyzer.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\PriceAnalyzer\PriceAnalyzer\obj\Debug\PriceAnalyzer.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\PriceAnalyzer\PriceAnalyzer\bin\Debug\PriceAnalyzer.exe.config
+C:\Users\user\source\repos\PriceAnalyzer\PriceAnalyzer\bin\Debug\PriceAnalyzer.exe
+C:\Users\user\source\repos\PriceAnalyzer\PriceAnalyzer\bin\Debug\PriceAnalyzer.pdb
+C:\Users\user\source\repos\PriceAnalyzer\PriceAnalyzer\obj\Debug\PriceAnalyzer.exe
+C:\Users\user\source\repos\PriceAnalyzer\PriceAnalyzer\obj\Debug\PriceAnalyzer.pdb
