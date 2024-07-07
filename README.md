@@ -1,10 +1,12 @@
-Welcome to my portfolio!
-I'm currently working in C# so most of this portfolio is in this language.
+Witam w moim portfolio!
 
+Pokrótce opisze działanie danych programów
 
-FinancialCalculator is basic calculator to calcutale loan, credit amortyzation and credit compounds interest.
-PriceAnalyzer is my favourite one - with csv file you can analyze Bitcoin price based on specific dates. In 'menu' you can choose type of analysis that you want to do.
-symulatorLotto is easy game where you choose 6 numbers and program tells you how many did you guess.
-MeetingManagement let you add, delete and see all your meetings, also it let you add users and control their permission.
-
-Thanks for your interesting in my projects!
+FinancialCalculator to kalkulator finansowy z opcją liczenia kredytów i amortyzacji kredytu.
+PriceAnalyzer to aplikacja która na podstawie pliku CSV z cenami zamknięcia z danego dnia ceny Bitcoina wykonuje wybraną przez nas analizę - użytkownik dodatkowo wybiera przedział czasu na podstawie którego chciałby wykonać analizę.
+TicTacToe - gra w kółko i krzyżyk z komputerem który wykonuje ruchy samemu.
+symulatorLotto - gra podobna do Lotto, wybieramy 6 cyfr a następnie system pokazuje nam ile z nich trafiliśmy
+sql -> w tym folderze znajdują się trzy pliki:
+  pierwszy tworzy bazę i tablice do systemu biblioteki
+  drugi podaje przykładowe dane do tablic
+  trzeci ma w sobie zapytania select które przy większej ilości danych będą odpowiednie do analizy danych
